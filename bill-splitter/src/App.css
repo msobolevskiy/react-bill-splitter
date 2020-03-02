@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.app-wrapper {
+    display: flex;
+    background: hsl(60, 9%, 94%);
+}
+
+.left-part {
+    width: 35%;
+    background: hsl(172, 74%, 51%);
+    height: 100vh;
+}
+
+.right-part {
+    width: 65%;
+    background: hsl(172, 85%, 59%);
+    height: 100vh;
+}
