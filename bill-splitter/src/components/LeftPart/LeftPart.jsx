@@ -1,7 +1,5 @@
 import React from "react";
-import s from "./LeftPart.module.css";
-import { NavLink } from "react-router-dom";
-import QuantityMenu from "./QuantityMenu/QuantityMenu";
+import QuantityMenuContainer from "./QuantityMenu/QuantityMenuContainer";
 import BillSharingPage from "./BillSharingPage/BillSharingPage";
 import TotalBillMenu from "./TotalBillMenu/TotalBillMenu";
 import { Route, Switch } from "react-router-dom";
@@ -9,9 +7,9 @@ import { Route, Switch } from "react-router-dom";
 const LeftPart = props => {
   return (
     <Switch>
-      <Route exact path="/" render={() => <QuantityMenu />} />,
-      <Route path="/BillSharingPage" render={() => <BillSharingPage />} />,
-      <Route path="/TotalBillMenu" render={() => <TotalBillMenu />} />
+      <Route exact path="/" render={() => <QuantityMenuContainer />} />,
+      <Route path="/TotalBillMenu" render={() => <TotalBillMenu />} />,
+      <Route path="/BillSharingPage" render={() => <BillSharingPage />} />
     </Switch>
   );
 };

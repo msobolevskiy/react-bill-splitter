@@ -1,8 +1,8 @@
 import {createStore, combineReducers} from 'redux';
-import profileReducer from "./profile-reducer";
+import personsReducer from "./persons-reducer";
 
 let reducers = combineReducers({
-    profilePage: profileReducer
+    personsReducer: personsReducer
 });
 // автоматически создаёт внутри себя state, внутри которого будут свойства  
 let store = createStore(reducers); 
