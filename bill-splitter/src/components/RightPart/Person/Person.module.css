@@ -1,0 +1,9 @@
+.personWrap{
+    width: calc(100%/3);
+    height: calc(100%/2);
+    background-color: hsl(266, 54%, 72%);
+}
+.personWrap:nth-child(2n){
+    background-color: hsl(266, 73%, 79%);
+    }
+

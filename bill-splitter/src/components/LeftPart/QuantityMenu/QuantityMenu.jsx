@@ -16,7 +16,7 @@ const QuantityMenu = props => {
     props.btnMinusClick();
   }
   
-
+console.log(props.quantityOfPerson);
   return (
     <div className={s.wrap}>
       <div className={s.titleWrap}>
